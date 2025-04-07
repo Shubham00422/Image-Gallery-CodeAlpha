@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="02_style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <img src="image_gallery_01.jpg" alt="Gallery Image" />
+            <img src="image_gallery_02.jpg" alt="Gallery Image" />
+            <img src="image_gallery_03.jpg" alt="Gallery Image" />
+            <img src="image_gallery_04.jpg" alt="Gallery Image" />
+            <img src="image_gallery_05.jpg" alt="Gallery Image" />
+            <img src="image_gallery_06.jpg" alt="Gallery Image" />
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Shubham Vishwakarma | Portfolio Project</p>
+        <div class="footer-links">
+            <a href=" https://github.com/Shubham00422" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/shubham-vishwakarma-17a894299 " target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Full View" />
+    </div>
+    <script src="03_script.js"></script>
+</body>
+
+</html>
